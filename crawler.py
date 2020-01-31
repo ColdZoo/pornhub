@@ -21,10 +21,10 @@ proxies = {}
 # 如果代理不稳定，不推荐使用
 # local showdowsocks service
 # proxies example:
-# proxies = {
-#     "http": "socks5://127.0.0.1:1080",
-#     "https": "socks5://127.0.0.1:1080",
-# }
+proxies = {
+    "http": "socks5h://127.0.0.1:1031",
+    "https": "socks5h://127.0.0.1:1031",
+}
 
 
 def list_page(url):
